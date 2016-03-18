@@ -10,19 +10,19 @@
 </head>
 <body>
 <div class="wrap">
-  <header class="main-header">
+  <header class=" main-header">
     <h1 class="name">My First Project</h1>
     <nav class="main-nav">
       <ul>
         <li><a href="about.html">About:</a></li>
         <li><a href="contact.html">Contact:</a></li>
-                <!-- <li><a href="game1000.html">Dice:</a></li> -->
         <li><a href="itemsOfInterest.html">New Items:<a><li>
+
       </ul>
     </nav>
   </header>
-    <div class="wrapper">
-      <div class="primary col">
+    <div class="row">
+      <div class="primary col-md-4">
         <h2>Welcome</h2>
         <img class="bridge" src="img/big4bridge1.png" alt="bridge">
           <h2>Louisville, KY</h2>
@@ -30,10 +30,12 @@
           <p> The other side is Jeffersonville, IN. Salute!</p>
       </div>
 
-      <div class="filler col">
+      <div class="filler col-md-4">
+        <img id="apod_img_id" width="300"/>
+        <p id="copyright"></p>
       </div>
 
-      <div class="petition col"><iframe  src="http://petitions.moveon.org/embed/widget.html?v=3&name=tell-the-democratic-superdel"
+      <div class="petition col-md-4"><iframe  src="http://petitions.moveon.org/embed/widget.html?v=3&name=tell-the-democratic-superdel"
        class="moveon-petition" id="petition-embed" width="100%" height="600px"></iframe>
      </div>
     </div>
@@ -42,15 +44,18 @@
 
 
 <script></script>
+<script src="https:ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/nasaapodapi.js"></script>
 
 
 </body>
-<div class="footer">
-<footer>
-<span></h2>Thanks for visiting: </h2>
-<a href="../contact.html">leave a message</a></span>
-</footer>
-</div>S
+
+
+  <footer class="footer">
+    <span></h2>Thanks for visiting: </h2>
+    <a href="contact.html">leave a message</a></span>
+  </footer>
+
 
 
 </html>
