@@ -14,6 +14,10 @@ margin-top: 0 auto;
 }
 h1 {
   margin-top: 0;
+	color: #000;
+}
+h3{
+	color: #000;
 }
 
 .name {
@@ -35,7 +39,7 @@ h1 {
 }
 
 #apod_img_id {
-margin: 0 auto;
+	margin-top: 2%;
 }
 
 .bridge {
@@ -85,9 +89,9 @@ margin: 0 auto;
 }
 
 .primary {
-	width: 35%;
-	height: 600px;
-  background: rgba(178,34,0,.5);
+	width: 33.3%;
+	height: 630px;
+  background: rgba(178,34,0,.1);
   text-align: center;
   padding: 1em;
 
@@ -98,10 +102,10 @@ margin: 0 auto;
 .filler {
 width: 30%;
 height: 600px;
-padding-top: 20px; 
+padding-top: 20px;
 padding-left: 2.5em;
 background-position: center;
-opacity: 0.6;
+/*opacity: 0.6;*/
 }
 
 .rant {
@@ -119,11 +123,12 @@ opacity: 0.6;
 }
 /*itemsOfInterest stylings*/
 #interests {
-height: 600px;
-/*background-image: url("../img/colorpencil1.jpg");*/
-/*opacity: 0.15;*/
-padding-bottom: 0;
-margin: 0;
+	height: 600px;
+	color: #000;
+	/*background-image: url("../img/colorpencil1.jpg");*/
+	/*opacity: 0.15;*/
+	padding-bottom: 0;
+	margin: 2%;
 }
 .footer {
 	position:absolute;
